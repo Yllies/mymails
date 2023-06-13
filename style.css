@@ -87,13 +87,16 @@ h1 {
 #add-section {
   width: 100%;
   margin-left: 2vw;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
 
 #total-msg {
   display: flex;
   align-items: center;
   height: 3vh;
-  margin-top: 2vh;
+  margin-top: 10px;
   margin-right: 1vw;
   padding: 15px;
   border-radius: 10px;
@@ -166,8 +169,7 @@ span {
 }
 
 #btn-add {
-  width: 72px;
-  margin-top: 2vh;
+  width: 70px;
   padding: 11px;
   border: 2px #ffffff solid;
   border-radius: 10px;
@@ -175,6 +177,7 @@ span {
   background-color: #1161f5;
   font-size: 16px;
   cursor: pointer;
+  height: 45px;
 }
 
 #btn-add:hover {
